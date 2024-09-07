@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+}
+
+.main-container {
+    position: relative;
+    background-color: transparent; /* Transparent background */
+    border-radius: 15px;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    border: solid;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.8); /* Light shadow effect */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.main-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.3); /* Keep the same background */
+    backdrop-filter: blur(100px); /* Apply blur only to this pseudo-element */
+    z-index: -1; /* Ensure the blur stays behind the content */
+    border-radius: 15px; /* Match the container's border-radius */
+}
+
+.main-container:hover {
+    transform: scale(1.05); /* Slight scaling effect */
+    box-shadow: 0 12px 48px rgba(0, 0, 0, 0.3); /* More prominent shadow */
+    
+}
+
+h2{
+    letter-spacing: 1.5px;
+}
+
+.main-container p{
+    color: #4e4e4e;
+    font-size: 18px;
+}
+.main-container p span{
+    display: block;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.code-container{
+    margin: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.code{
+    font-family: inherit;
+    width: 50px;
+    height: 70px;
+    font-size: 3rem;
+    padding: 0.5rem;
+    text-align: center;
+    border: 2px solid #eee;
+    border-radius: 15px;
+}
+.code::-webkit-outer-spin-button,.code::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+.code:focus{
+    outline: none;
+    box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.25);
+}
+.code:valid{
+    border: 3px solid #89f7fe ;
+    box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.25);
+}
+small a{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: medium;
+}
+small{
+    font-size: medium;
+}
+.back{
+    margin: 20px 0 10px;
+}
+.back a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+   color: #000;
+}

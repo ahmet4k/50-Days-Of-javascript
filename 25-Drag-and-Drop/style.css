@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: grey;
+    display: flex;
+    justify-content: center; /* Kutuları yatayda ortala */
+    align-items: center;     /* Flex yönünü yatay (row) yap */
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.empty {
+    width: 150px;
+    height: 150px;
+    border: solid 3px #333;
+    margin: 10px;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+     background-image: url('https://picsum.photos/150/150');
+    cursor: pointer;
+}
+
+
+.hold{
+    border: solid 5px greenyellow;
+
+}
+
+.hover{
+    background-color: #333;
+    border-style: dashed;
+    border-color:#fff    ;
+}
+
+
+@media(max-width:800px){
+    body{
+        flex-direction: column;
+    }
+}
