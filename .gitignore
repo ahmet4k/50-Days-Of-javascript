@@ -1,0 +1,53 @@
+# IDE -VSCode
+
+.vscode/*
+
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!vscode/extensions.json
+
+#img
+*.jpg
+*.png
+image/
+
+# videos
+*.mp4
+
+#packages
+*.zip
+*.tar.gz
+
+# Tailwind config file
+tailwind.config.js
+
+# Node.js modülleri ve paketleri
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Çıkış dosyaları ve derlenmiş dosyalar
+dist/
+build/
+*.out
+*.log
+
+# İşletim sistemi dosyaları
+.DS_Store
+Thumbs.db
+
+# IDE ve editor
+.vscode/
+.idea/
+*.sublime-workspace
+
+# local
+*.env
+*.lock
+*.tmp
+*.bak
+
+# Secret
+/secret-config/
