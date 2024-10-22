@@ -4,12 +4,7 @@
 }
 body{
     font-family: 'Roboto Condensed', sans-serif;
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    align-items: center;
-    margin: 0;
-    overflow: hidden;
+   
 }
 .container{
     display: flex;
@@ -43,7 +38,7 @@ body{
 .panel.active h3 {
     text-decoration: underline;
     opacity: 1;
-    transition: opacity  0.3s ease-in 0.4s;
+    
 }
 @media(max-width: 600px){
     .container{  
