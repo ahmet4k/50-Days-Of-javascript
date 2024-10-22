@@ -56,6 +56,10 @@ This repository contains a collection of 50 Days of JavaScript projects. Each pr
 
 26. **[26-Password-Strength-UI](https://github.com/1Thoran/50-Days-Of-Javascript/tree/master/26-Password-Strength-UI)**
 
+27. **[27-Production-Color-Change](https://github.com/ahmet4k/50-Days-Of-javascript/tree/master/27-Production-Color-Change)**
+
+28. **[28-Calculator](https://github.com/ahmet4k/50-Days-Of-javascript/tree/master/28-Calculator)**
+
 ## Setup and Running
 
 Each project can be run independently. Navigate to each project folder and follow the necessary setup instructions to run the project.
@@ -63,4 +67,3 @@ Each project can be run independently. Navigate to each project folder and follo
 ## Contributing
 
 If you would like to contribute, please submit a pull request or open an issue.
-
